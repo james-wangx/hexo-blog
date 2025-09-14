@@ -1,8 +1,8 @@
 ---
-title: 下载VMWare
+title: 下载VMware
 date: 2025-09-04 21:43:15
 tags:
-  - VMWare
+  - VMware
 category: 未分类
 ---
 ## 1 最终下载地址
