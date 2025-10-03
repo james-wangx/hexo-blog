@@ -37,8 +37,8 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Muse
-scheme: Mist
+ scheme: Muse
+#scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -118,7 +118,7 @@ menu_settings:
 
 sidebar:
   # Sidebar position. Available values: left | right
-  position: left
+  position: right
 
   # Sidebar width.
   # Applicable to Muse | Mist and mobile of Pisces | Gemini.
@@ -388,7 +388,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:

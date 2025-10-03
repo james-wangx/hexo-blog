@@ -4,6 +4,9 @@ date: 2025-09-15 14:33:13
 tags:
   - Teamcenter
   - 集成
+category:
+  - PLM
+  - Teamcenter
 ---
 
 ## 1 添加组件
