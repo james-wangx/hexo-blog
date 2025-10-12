@@ -39,7 +39,7 @@ tags:
 
 ![正在安装](./安装-Xpedition/正在安装.png)
 
-![image-20251010142037447](./安装-Xpedition/image-20251010142037447.png)
+![跳过证书设置](./安装-Xpedition/跳过证书设置.png)
 
 ![选择工作目录](./安装-Xpedition/选择工作目录.png)
 
