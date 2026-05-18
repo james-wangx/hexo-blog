@@ -69,6 +69,6 @@ Win + R 打开注册表 regedit
 
 打开 cmd，邮件窗口，打开属性
 
-<img src="./Windows-Server-测试系统常用设置/cmd属性.png" alt="cmd属性" style="zoom:80%;" />
+![cmd属性](./Windows-Server-测试系统常用设置/cmd属性.png)
 
 ![关闭快速编辑模式](./Windows-Server-测试系统常用设置/关闭快速编辑模式.png)
