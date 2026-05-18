@@ -95,7 +95,7 @@ magnet:?xt=urn:btih:40810feeda21cb5fbcfa2f4eebf2fd9356378412&dn=zh-cn_windows_se
 
 ![自定义安装](./安装-Windows-Server-2022/自定义安装.png)
 
-![安装位置](./安装-Windows-Server-2022/安装位置.png)
+![image-20260518141304111](./安装-Windows-Server-2022/安装位置.png)
 
 等待安装完成后会自动重启
 
