@@ -131,3 +131,6 @@ marked:
     nofollow: false
   disableNunjucks: false
   descriptionLists: true
+
+sitemap:
+  path: sitemap.xml
