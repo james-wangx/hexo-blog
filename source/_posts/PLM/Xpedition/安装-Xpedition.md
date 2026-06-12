@@ -1,10 +1,11 @@
 ---
 title: 安装 Xpedition
 date: 2025-10-10 13:53:40
+description: 安装 Xpedition
 tags:
   - 安装
   - Xpedition
-category:
+categories: 
   - PLM
   - Xpedition
 ---

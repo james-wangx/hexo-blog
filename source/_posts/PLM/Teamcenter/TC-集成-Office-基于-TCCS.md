@@ -1,10 +1,11 @@
 ---
 title: TC 集成 Office 基于 TCCS
 date: 2025-09-15 14:33:13
+description: TC 集成 Office 基于 TCCS
 tags:
   - Teamcenter
   - 集成
-category:
+categories:
   - PLM
   - Teamcenter
 ---

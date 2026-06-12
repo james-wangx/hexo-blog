@@ -1,9 +1,11 @@
 ---
 title: Windows Server 测试系统常用设置
 date: 2026-05-18 15:00:05
+description: Windows Server 测试系统常用设置
 tags:
   - Windows Server
-category: 未分类
+categories:
+  - 未分类
 ---
 ## 禁用 IPv6
 

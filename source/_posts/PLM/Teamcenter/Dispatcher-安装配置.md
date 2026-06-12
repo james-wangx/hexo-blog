@@ -1,11 +1,12 @@
 ---
 title: Dispatcher 安装配置
 date: 2025-09-16 09:55:22
+description: Dispatcher 安装配置
 tags:
   - Teamcenter
   - Dispatcher
   - 安装
-category:
+categories:
   - PLM
   - Teamcenter
 ---

@@ -1,10 +1,11 @@
 ---
 title: 升级 BMIDE 项目
 date: 2025-09-15 10:35:49
+description: 升级 BMIDE 项目
 tags:
   - BMIDE
   - 升级
-category:
+categories: 
   - PLM
   - BMIDE
 ---

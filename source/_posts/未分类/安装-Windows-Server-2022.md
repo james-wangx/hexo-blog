@@ -1,10 +1,12 @@
 ---
 title: 安装 Windows Server 2022
 date: 2025-10-03 15:51:11
+description: 安装 Windows Server 2022
 tags:
   - 安装
   - Windows Server
-category: 未分类
+categories: 
+  - 未分类
 ---
 
 ## 1 准备镜像文件

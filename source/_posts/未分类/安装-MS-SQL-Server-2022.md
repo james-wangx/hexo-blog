@@ -1,10 +1,11 @@
 ---
 title: 安装 MS SQL Server 2022
 date: 2026-06-12 07:47:56
+description: 安装 MS SQL Server 2022
 tags:
   - 安装
   - MS SQL Server
-category:
+categories:
   - 未分类
 ---
 

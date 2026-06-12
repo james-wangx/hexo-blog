@@ -1,13 +1,14 @@
 ---
 title: TC NX 集成，创建保存 JT 文件
 date: 2025-09-17 18:11:06
+description: TC NX 集成，创建保存 JT 文件
 tags:
   - Teamcenter
   - NX
   - 集成
   - Dispatcher
   - JT
-category:
+categories: 
   - PLM
   - Teamcenter
 ---

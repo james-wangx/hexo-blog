@@ -1,10 +1,11 @@
 ---
 title: 升级 Deployment Center
 date: 2025-09-14 12:32:40
+description: 升级 Deployment Center
 tags:
   - Deployment Center
   - 升级
-category:
+categories: 
   - PLM
   - Deployment Center
 ---

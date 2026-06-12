@@ -1,10 +1,11 @@
 ---
 title: 升级 Teamcenter
 date: 2025-09-14 15:29:47
+description: 升级 Teamcenter
 tags:
   - Teamcenter
   - 升级
-category:
+categories:
   - PLM
   - Teamcenter
 ---

@@ -1,12 +1,13 @@
 ---
 title: TC NX 集成，图纸转 PDF 文件
 date: 2025-09-19 09:59:59
+description: TC NX 集成，图纸转 PDF 文件
 tags:
   - Teamcenter
   - NX
   - 集成
   - Dispatcher
-category:
+categories:
   - PLM
   - Teamcenter
 ---
