@@ -15,25 +15,25 @@ categories:
 
 应用程序选择 Dispatcher
 
-![应用程序](./Dispatcher-安装配置/应用程序.png)
+![应用程序](Dispatcher-Installation-and-Configuration/应用程序.png)
 
 ## 2 组件配置
 
 Dispatcher Client
 
-![DispatcherClient](./Dispatcher-安装配置/DispatcherClient.png)
+![DispatcherClient](Dispatcher-Installation-and-Configuration/DispatcherClient.png)
 
 Dispatcher Module
 
-![DispatcherModule1](./Dispatcher-安装配置/DispatcherModule1.png)
+![DispatcherModule1](Dispatcher-Installation-and-Configuration/DispatcherModule1.png)
 
 可以选择合适的转换器，否则需要装完后手动配置
 
-![DispatcherModule2](./Dispatcher-安装配置/DispatcherModule2.png)
+![DispatcherModule2](Dispatcher-Installation-and-Configuration/DispatcherModule2.png)
 
 Dispatcher Scheduler
 
-![DispatcherScheduler](./Dispatcher-安装配置/DispatcherScheduler.png)
+![DispatcherScheduler](Dispatcher-Installation-and-Configuration/DispatcherScheduler.png)
 
 ## 3 部署
 
@@ -187,13 +187,13 @@ Status: Deploy Script Execution Successful !!!
 
 打开胖客户端的访问管理器，在 Has Class (POM_application_object)→Working 下加上如下的规则：
 
-![访问管理器](./Dispatcher-安装配置/访问管理器.png)
+![访问管理器](Dispatcher-Installation-and-Configuration/访问管理器.png)
 
 ## 5 启动服务
 
 给 Dispatcher 根目录设置一个环境变量
 
-![环境变量](./Dispatcher-安装配置/环境变量.png)
+![环境变量](Dispatcher-Installation-and-Configuration/环境变量.png)
 
 启动脚本：
 

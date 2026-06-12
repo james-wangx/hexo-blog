@@ -17,11 +17,11 @@ categories:
 
 用 DC 安装 Dispatcher Module 时，勾选 NX Direct Translator
 
-![勾选转换器](./TC-NX-集成，创建保存-JT-文件/勾选转换器.png)
+![勾选转换器](TC-NX-Integration-Create-and-Save-JT-File/勾选转换器.png)
 
 安装完后编辑 %DISP_ROOT%\Module\Translators\nxtransdirect\nxtransdirect.bat
 
-![设置变量](./TC-NX-集成，创建保存-JT-文件/设置变量.png)
+![设置变量](TC-NX-Integration-Create-and-Save-JT-File/设置变量.png)
 
 ## 2 首选项设置
 
@@ -29,19 +29,19 @@ NX_ETS_NXTRANSDIRECT_ENABLED = true
 
 在保存 prt 时使用异步的转换器
 
-![NX_ETS_NXTRANSDIRECT_ENABLED](./TC-NX-集成，创建保存-JT-文件/NX_ETS_NXTRANSDIRECT_ENABLED.png)
+![NX_ETS_NXTRANSDIRECT_ENABLED](TC-NX-Integration-Create-and-Save-JT-File/NX_ETS_NXTRANSDIRECT_ENABLED.png)
 
 NX_ETS_NXTRANSDIRECT_REQUEST = 1
 
 当保存或签入时会异步调用转换器保存为 JT 文件
 
-![NX_ETS_NXTRANSDIRECT_REQUEST](./TC-NX-集成，创建保存-JT-文件/NX_ETS_NXTRANSDIRECT_REQUEST.png)
+![NX_ETS_NXTRANSDIRECT_REQUEST](TC-NX-Integration-Create-and-Save-JT-File/NX_ETS_NXTRANSDIRECT_REQUEST.png)
 
 ## 3 测试
 
 开启四层服务和 Dispatcher，在 NX 中保存或者签入，会触发 Dispatcher 的转换器
 
-![保存签入](./TC-NX-集成，创建保存-JT-文件/保存签入.png)
+![保存签入](TC-NX-Integration-Create-and-Save-JT-File/保存签入.png)
 
 相关日志：
 
@@ -131,5 +131,5 @@ Dispatcher Client：
 
 保存的 JT 文件：
 
-![JT](./TC-NX-集成，创建保存-JT-文件/JT.png)
+![JT](TC-NX-Integration-Create-and-Save-JT-File/JT.png)
 

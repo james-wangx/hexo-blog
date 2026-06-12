@@ -16,4 +16,4 @@ categories:
 
 用 DC 安装 Dispatcher Module 时，勾选 NX to CGM Translator
 
-![转换器](./TC-NX-集成，图纸转-PDF-文件/转换器.png)
+![转换器](TC-NX-Integration-Translate-Drawing-To-PDF/转换器.png)

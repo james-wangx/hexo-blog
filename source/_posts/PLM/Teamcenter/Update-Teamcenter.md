@@ -14,29 +14,29 @@ categories:
 
 将升级需要的介质解压放到 DC 的 software 目录下
 
-![Medium](./升级-Teamcenter/Medium.png)
+![Medium](Update-Teamcenter/Medium.png)
 
 ## 2 DC 设置
 
 在 DC 的选项中勾选刚才加进来的介质，然后点击更新选定的组件
 
-![DCSoftware](./升级-Teamcenter/DCSoftware.png)
+![DCSoftware](Update-Teamcenter/DCSoftware.png)
 
-![GotoOption](./升级-Teamcenter/GotoOption.png)
+![GotoOption](Update-Teamcenter/GotoOption.png)
 
-![GotoEnv](./升级-Teamcenter/GotoEnv.png)
+![GotoEnv](Update-Teamcenter/GotoEnv.png)
 
-![GotoComponents](./升级-Teamcenter/GotoComponents.png)
+![GotoComponents](Update-Teamcenter/GotoComponents.png)
 
-![GotoDeploy](./升级-Teamcenter/GotoDeploy.png)
+![GotoDeploy](Update-Teamcenter/GotoDeploy.png)
 
-![GenerateScript](./升级-Teamcenter/GenerateScript.png)
+![GenerateScript](Update-Teamcenter/GenerateScript.png)
 
 可以看到生成了三个压缩包，每个机器上都需要部署
 
-![部署信息](./升级-Teamcenter/部署信息.png)
+![部署信息](Update-Teamcenter/部署信息.png)
 
-![部署包](./升级-Teamcenter/部署包.png)
+![部署包](Update-Teamcenter/部署包.png)
 
 ## 3 开始部署
 
@@ -365,7 +365,7 @@ The Deployment Center script encountered a failure. To gather and zip the deploy
 
 看日志推测是有服务没有停止导致的，查看服务：
 
-![查看服务](./升级-Teamcenter/查看服务.png)
+![查看服务](Update-Teamcenter/查看服务.png)
 
 可以看到 Teamcenter Process Manager 已经停了，但是 Teamcenter_Vault_Service_Env_001 没停，手动停止服务，再次运行部署脚本：
 
@@ -562,15 +562,15 @@ The Deployment Center script encountered a failure. To gather and zip the deploy
 
 但是观察服务，我们的服务名是 Teamcenter_Vault_Service_Env_001，推测是之前改过一次环境名导致的
 
-![服务名](./升级-Teamcenter/服务名.png)
+![服务名](Update-Teamcenter/服务名.png)
 
 在尝试了多种办法诸如修改服务名，删除服务重新注册等等都不行后，选择在部署时将环境名改回去
 
-![改环境名](./升级-Teamcenter/改环境名.png)
+![改环境名](Update-Teamcenter/改环境名.png)
 
 重新生成部署脚本再部署
 
-![组件名](./升级-Teamcenter/组件名.png)
+![组件名](Update-Teamcenter/组件名.png)
 
 这里注意下，原先的组件名为 Teamcenter Vault，现在改成了 Teamcenter Secrets Manager (by HashiCorp)
 
@@ -1449,9 +1449,9 @@ Status: Success
 
 DC 中打开软件存储库，将之前的小版本移除
 
-![移除活动的介质](./升级-Teamcenter/移除活动的介质.png)
+![移除活动的介质](Update-Teamcenter/移除活动的介质.png)
 
 最后在已废弃的介质中移除
 
-![移除已废弃介质](./升级-Teamcenter/移除已废弃介质.png)
+![移除已废弃介质](Update-Teamcenter/移除已废弃介质.png)
 

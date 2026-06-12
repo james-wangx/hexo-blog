@@ -14,17 +14,17 @@ categories:
 
 一般 DC 的升级是为 TC 升级准备的，要先准备好升级介质：
 
-![Medium](./升级-Deployment-Center/Medium.png)
+![Medium](Upgrade-Deployment-Center/Medium.png)
 
 ## 2 配置升级文件
 
 复制 upgrade_config.properties 文件为 DC_upgrade_config.properties
 
-![UpgradeConfigFile](./升级-Deployment-Center/UpgradeConfigFile.png)
+![UpgradeConfigFile](Upgrade-Deployment-Center/UpgradeConfigFile.png)
 
 注意这里的配置信息要和已安装的DC配置一致，重点是安装路径、端口号和用户名密码，当然如果改过服务名等其它配置，也需要和已安装的配置保持一致：
 
-![UpgradeConfig](./升级-Deployment-Center/UpgradeConfig.png)
+![UpgradeConfig](Upgrade-Deployment-Center/UpgradeConfig.png)
 
 ## 3 运行升级脚本
 
@@ -201,4 +201,4 @@ NOTE: The Deployment Center utilities are available under the "C:\\Siemens\\Depl
 
 查看 DC 登录页面左下角的版本信息
 
-![Version](./升级-Deployment-Center/Version.png)
+![Version](Upgrade-Deployment-Center/Version.png)
