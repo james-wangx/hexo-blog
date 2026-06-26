@@ -1,4 +1,4 @@
 ---
-title: 标签
+title: Tags
 type: tags
 ---

@@ -3,13 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 王舰的博客
-subtitle: 学习 · 实践 · 分享
-description: 记录生活，分享技术
+title: James Wang's Blog
+subtitle: Learning · Building · Sharing
+description: A personal blog about software development, technology, and life.
 keywords:
-author: 王舰
-language: zh-CN
-timezone: ''
+  - plm
+  - teamcenter
+  - software development
+  - technology
+  - blog
+author: James Wang
+language: en
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
