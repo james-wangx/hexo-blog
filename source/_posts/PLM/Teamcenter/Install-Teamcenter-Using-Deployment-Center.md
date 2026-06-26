@@ -1,9 +1,9 @@
 ---
-title: 用 Deployment Center 安装 Teamcenter
-description: 用 Deployment Center 安装 Teamcenter 的详细步骤，Web 服务器：Tomcat，SQL 服务器：MS SQL Server
+title: Install Teamcenter Using Deployment Center
+description: "Detailed steps for installing Teamcenter using Deployment Center, Web server: Tomcat, SQL server: MS SQL Server"
 date: 2026-06-23 15:04:02
 tags:
-  - 安装
+  - Installation
   - Teamcenter
 categories:
   - PLM
