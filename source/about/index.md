@@ -2,26 +2,32 @@
 title: About
 date: 2026-06-12 16:47:59
 ---
-## 👋 你好，我是 James
 
-这是我的博客，用来记录：
+## 👋 Hi, I'm James
 
-- 技术学习
-- 项目经验
-- 思考总结
+Welcome to my blog!
+
+This is where I document my journey in software development, share technical knowledge, and write about things I've learned along the way.
+
+Here you'll find posts about:
+
+- Technology and programming
+- Project experience
+- Thoughts and insights
 
 ---
 
-## 🧠 技术栈
+## 🧠 Tech Stack
 
 - Java
 - C++
-- Javascript
+- JavaScript
 - Teamcenter
 
 ---
 
-## 📫 联系方式
+## 📫 Contact
 
 - Email: codicefun@gmail.com
 - GitHub: https://github.com/james-wangx
+- 

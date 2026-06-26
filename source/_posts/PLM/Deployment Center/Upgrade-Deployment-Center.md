@@ -1,10 +1,10 @@
 ---
-title: 升级 Deployment Center
+title: Upgrade Deployment Center
 date: 2025-09-14 12:32:40
-description: 升级 Deployment Center
+description: Detailed steps for Upgrading Deployment Center on Windows
 tags:
+  - Updrade
   - Deployment Center
-  - 升级
 categories: 
   - PLM
   - Deployment Center

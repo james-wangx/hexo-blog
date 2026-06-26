@@ -1,9 +1,9 @@
 ---
-title: 安装 Deployment Center
-description: 在 Windows 上安装 Deployment Center 的详细步骤
+title: Install Deployment Center
+description: Detailed steps for Install Deployment Center on Windows
 date: 2026-06-22 19:54:39
 tags:
-  - 安装
+  - Installation
   - Deployment Center
 categories:
   - PLM
