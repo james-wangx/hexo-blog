@@ -35,6 +35,20 @@ for (auto& task : tasks)
 TcUtil::createAssignments(schedule, newAssignments);
 ```
 
+A part of code in TcUtil:
+
+```c++
+void TcUtil::createAssignments(tag_t schedule, std::vector<AssignmentCreate_t>& createInputs)
+{
+    ResultStatus ok;
+    int createdNum;
+    Teamcenter::scoped_smptr<tag_t> createdAssignmentsPtr;
+
+    LOGGER_ITK(SCHMGT_create_assignments(schedule, (int)createInputs.size(), createInputs.data(), &createdNum,
+                                         &createdAssignmentsPtr));
+}
+```
+
 It is necessary to include the **schmgt/schmgt_bridge_itk.h** and then call the **SCHMGT_creare_assignments** function, passing in a structure of type **AssignmentCreate_t**.
 
 Generally, only three properties need to be set: the task UID, the user UID, and the percentage.
@@ -50,7 +64,7 @@ Open a schedule and copy it uid into the code from url:
 run test:
 
 ```cmd
-D:\Siemens\Teamcenter2506\bin>xc_itk_demo_create_assignments.exe -u=james -p=james -g=dba
+D:\Siemens\Teamcenter2506\bin>demo_create_assignments.exe -u=james -p=james -g=dba
 DEBUG - Call ITK_initialize_text_services(0)
 DEBUG - Call ITK_init_module(usr, upw, ugp)
 INFO  - Login to Teamcenter success as james
