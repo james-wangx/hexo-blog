@@ -1,37 +1,44 @@
 # James Wang's Blog
 
-基于 Hexo 8 + NexT 8 的个人技术博客，使用 GitHub Pages 部署。
+![Hexo](https://img.shields.io/badge/Hexo-8.1.2-0e83cd)
+![NexT](https://img.shields.io/badge/NexT-8.28.0-0e83cd)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-222)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-在线地址：<https://james-wangx.github.io>
+Personal technology blog built with Hexo 8 + NexT 8 and hosted on GitHub Pages.
 
-## 技术栈
+Online: <https://james-wangx.github.io>
 
-- Hexo 8 静态站点生成器
-- NexT 8 主题
-- GitHub Pages 部署
-- hexo-generator-searchdb 站内搜索
-- hexo-generator-sitemap 站点地图
-- hexo-next-giscus 评论
-- hexo-relative-link 相对路径图片链接
+[中文文档](README.zh-CN.md)
 
-## 本地开发
+## Tech Stack
 
-安装依赖：
+- Hexo 8 static site generator
+- NexT 8 theme
+- GitHub Pages deployment
+- hexo-generator-searchdb site search
+- hexo-generator-sitemap sitemap
+- hexo-next-giscus comments
+- hexo-relative-link relative image paths
+
+## Local Development
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-常用命令：
+Common commands:
 
-| 命令 | 说明 |
+| Command | Description |
 | --- | --- |
-| `npm run server` | 本地预览，默认 http://localhost:4000 |
-| `npm run build` | 生成静态文件到 `public` |
-| `npm run clean` | 清理生成缓存（`public`、`db.json`） |
-| `npm run deploy` | 部署 `public` 到 GitHub Pages |
+| `npm run server` | Local preview at http://localhost:4000 |
+| `npm run build` | Generate static files into `public` |
+| `npm run clean` | Clean generated cache (`public`, `db.json`) |
+| `npm run deploy` | Deploy `public` to GitHub Pages |
 
-完整部署流程：
+Full deployment workflow:
 
 ```bash
 npm run clean
@@ -39,25 +46,25 @@ npm run build
 npm run deploy
 ```
 
-## 写文章
+## Writing Posts
 
-文章放在 `source/_posts/` 下，按分类建立子目录，例如：
+Posts live under `source/_posts/`, organized into category directories, for example:
 
 ```text
 source/_posts/PLM/Teamcenter/My-Article.md
 ```
 
-写作规范：
+Writing conventions:
 
-- 标题使用英文，文件名用 `-` 代替空格。
-- Front matter 中通过 `categories` 指定分类，例如 `PLM` + `Teamcenter`。
-- 图片粘贴到与文章同名的目录中，Markdown 中使用相对路径引用：
+- Use English titles, and replace spaces with `-` in file names.
+- Set the category in the front matter, for example `PLM` + `Teamcenter`.
+- Put images into the directory named after the post and reference them with relative paths:
 
 ```markdown
 ![alt](./My-Article/image.png)
 ```
 
-Front matter 示例：
+Front matter example:
 
 ```yaml
 ---
@@ -74,9 +81,9 @@ categories:
 ---
 ```
 
-## 部署
+## Deployment
 
-部署目标在 `_config.yml` 中配置：
+The deployment target is configured in `_config.yml`:
 
 ```yaml
 deploy:
@@ -85,31 +92,31 @@ deploy:
   branch: master
 ```
 
-执行 `npm run deploy` 后，`public` 目录中的内容会推送到 `james-wangx.github.io` 仓库的 `master` 分支，GitHub Pages 会自动更新站点。
+After running `npm run deploy`, the contents of `public` are pushed to the `master` branch of the `james-wangx.github.io` repository, and GitHub Pages updates the site automatically.
 
-## 项目结构
+## Project Structure
 
 ```text
 .
-├── _config.yml                 # 站点配置
-├── _config.next.yml            # NexT 主题配置
-├── scaffolds/                  # 新文章模板
+├── _config.yml                 # Site configuration
+├── _config.next.yml            # NexT theme configuration
+├── scaffolds/                  # Post templates
 ├── source/
-│   ├── _posts/                 # 文章，按分类分目录
-│   ├── about/                  # 关于页面
-│   ├── categories/             # 分类页面
-│   ├── schedule/               # 计划页面
-│   └── tags/                   # 标签页面
-└── public/                     # 生成的静态文件（部署内容）
+│   ├── _posts/                 # Posts, organized by category
+│   ├── about/                  # About page
+│   ├── categories/             # Categories page
+│   ├── schedule/               # Schedule page
+│   └── tags/                   # Tags page
+└── public/                     # Generated static files (deployed content)
 ```
 
-## 提交约定
+## Commit Convention
 
-提交信息使用 Conventional Commits 风格，常见类型：
+Commit messages follow the Conventional Commits style:
 
-- `feat:` 新功能或新页面
-- `docs:` 文章或文档更新
-- `chore:` 构建、依赖等杂项
-- `style:` 样式调整
+- `feat:` new feature or page
+- `docs:` post or documentation update
+- `chore:` build, dependency, and other maintenance
+- `style:` style changes
 
-提交后默认直接推送到远程仓库。
+Changes are pushed to the remote repository after each commit.
