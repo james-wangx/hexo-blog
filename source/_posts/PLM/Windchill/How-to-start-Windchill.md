@@ -16,7 +16,7 @@ Enter the WindchillDS\sever\bat directory, run start-ds.bat
 
 ![Starting DS](./How-to-start-Windchill/StartingDS.png)
 
-You’ll see some outputs that then shut down automatically, whitch is normal.
+You'll see some outputs that then shut down automatically, whitch is normal.
 
 ![DS Output](./How-to-start-Windchill/DSOutput.png)
 
