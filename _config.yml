@@ -117,7 +117,7 @@ marked:
   pedantic: false
   breaks: true
   smartLists: true
-  smartypants: true
+  smartypants: false
   quotes: '“”‘’'
   modifyAnchors: 0
   anchorAlias: false
