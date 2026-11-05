@@ -1,3 +1,5 @@
-创建文章模板时只创建文件和目录，不提交、不推送；用户写完内容后再提交推送
+When creating a post template, create only the file and directory. Do not commit or push; commit and push only after the user has finished writing the content.
 
-文章或站点有更新时，先执行部署（hexo clean、generate、deploy），再提交源仓库并推送
+Whenever a post or the site is updated, deploy first (`hexo clean`, `hexo generate`, and `hexo deploy`), then commit and push the source repository.
+
+Use the Hexo command to create posts.
