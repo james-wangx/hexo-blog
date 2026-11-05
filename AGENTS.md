@@ -3,3 +3,5 @@ When creating a post template, create only the file and directory. Do not commit
 Whenever a post or the site is updated, deploy first (`hexo clean`, `hexo generate`, and `hexo deploy`), then commit and push the source repository.
 
 Use the Hexo command to create posts.
+
+Use English exclusively for all project content, including post titles, descriptions, documentation, code comments, and commit messages.
