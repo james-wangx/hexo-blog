@@ -22,7 +22,7 @@ The example environment has the following layout:
 | Oracle release media | Oracle Database 19.3 base release |
 | `ORACLE_BASE` | `/data/plm/oracle` |
 | `ORACLE_HOME` | `/data/plm/oracle/product/19.0.0/dbhome_1` |
-| Central Inventory | `/data/plm/oracle_inventory` |
+| Central Inventory | `/data/plm/oracle/inventory` |
 | CDB name / SID | `tcdb` / `tcdb` |
 | PDB name | `tcpdb` |
 | Listener port | `1521` |
@@ -164,12 +164,12 @@ su - oracle -c 'ulimit -Sn; ulimit -Hn; ulimit -Su; ulimit -Hu'
 
 ## 7. Create the directory layout
 
-Keep the Central Inventory outside `ORACLE_BASE` when possible. The database software and data directories remain under the requested install location. The inventory location and directory name are configurable; this guide uses the all-lowercase snake_case name `oracle_inventory`.
+For this layout, all Oracle-related files are consolidated under `ORACLE_BASE`. The inventory location and directory name are configurable; this guide uses the all-lowercase name `inventory`. OUI reports `INS-32055` as a recommendation when this directory is inside `ORACLE_BASE`, which is acceptable when the catalog and Oracle Base are backed up and managed together.
 
 ```bash
 install -d -m 755 /data
 install -d -m 755 /data/plm
-install -d -o oracle -g oinstall -m 775 /data/plm/oracle_inventory
+install -d -o oracle -g oinstall -m 775 /data/plm/oracle/inventory
 install -d -o oracle -g oinstall -m 775 \
   /data/plm/oracle/product/19.0.0/dbhome_1 \
   /data/plm/oracle/oradata \
@@ -187,7 +187,7 @@ The most important paths are:
 | --- | --- |
 | `/data/plm/oracle` | `ORACLE_BASE` |
 | `/data/plm/oracle/product/19.0.0/dbhome_1` | `ORACLE_HOME` |
-| `/data/plm/oracle_inventory` | Central Inventory |
+| `/data/plm/oracle/inventory` | Central Inventory |
 | `/data/plm/oracle/oradata` | CDB and PDB data files |
 | `/data/plm/oracle/fast_recovery_area` | Fast Recovery Area |
 
@@ -278,7 +278,7 @@ Set at least the following values:
 ```text
 oracle.install.option=INSTALL_DB_SWONLY
 UNIX_GROUP_NAME=oinstall
-INVENTORY_LOCATION=/data/plm/oracle_inventory
+INVENTORY_LOCATION=/data/plm/oracle/inventory
 ORACLE_HOME=/data/plm/oracle/product/19.0.0/dbhome_1
 ORACLE_BASE=/data/plm/oracle
 oracle.install.db.InstallEdition=EE
@@ -311,12 +311,12 @@ On the unsupported 19.3 and SLES 15 SP7 combination, OUI can report obsolete pac
   -ignorePrereqFailure
 ```
 
-Do not ignore unknown missing libraries or permission failures without investigating them. The installation log is stored under `/data/plm/oracle_inventory/logs/`.
+Do not ignore unknown missing libraries or permission failures without investigating them. The installation log is stored under `/data/plm/oracle/inventory/logs/`.
 
 When OUI requests root scripts, execute them in the order shown:
 
 ```bash
-/data/plm/oracle_inventory/orainstRoot.sh
+/data/plm/oracle/inventory/orainstRoot.sh
 /data/plm/oracle/product/19.0.0/dbhome_1/root.sh
 ```
 
