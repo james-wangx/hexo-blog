@@ -8,8 +8,7 @@ tags:
   - Database
   - Installation
 categories:
-  - PLM
-  - Teamcenter
+  - Uncategorized
 ---
 
 Oracle Database 19c is a common backend for Teamcenter. This guide explains how to perform a silent installation on SUSE Linux Enterprise Server (SLES) 15 SP7, create a container database (CDB) and a pluggable database (PDB), configure the listener, and enable automatic startup with systemd.
